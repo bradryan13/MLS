@@ -16,20 +16,19 @@ h1, h2, h5 {
 }
 
 #logo {
-	width: 220px;
-	height: 50px;
+	width: 310px;
+	height: 40px;
 }
 
 
 .custom-logo {
-	background-image: url(../../../../../images/assets/usarugby-logo2x.png);
+	background-image: url(../../../../../images/assets/MLS_logo_horz@2x.png);
 	background-size: cover;
 	position: absolute;
-	width: 180px;
-	height: 30px;
+	width: 230px;
+	height: 34px;
 	z-index: 100;
-	top: 10px;
-	left: 30px;
+	top: 12px;
 }
 
 
@@ -68,33 +67,21 @@ background: linear-gradient(top, #FCFCFC 0%,#F3F3F3 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#f3f3f3',GradientType=0 );
 }
 
-#block-toolbar {
-height: 25px;
-	border: 1px solid #FCFCFC;
--moz-box-shadow: 0 1px 3px #ccc;
--ms-box-shadow: 0 1px 3px #ccc;
--webkit-box-shadow: 0 1px 3px #CCC;
-box-shadow: 0 1px 3px #CCC;
-}
+
 
 
 #block-header {
-  height: 50px;
-  background: #0D243A;
-
-
+  height: 60px;
+  background: #00375C;
 }
 
-#header {
-	background: #0D243A;
-}
 
 #block-slider {
 	background: #222;
 }
 
 #block-main {
-	background: #EBEBEB;
+	background: #FFF;
 }
 
 
@@ -129,17 +116,27 @@ box-shadow: 0 1px 3px #CCC;
 
 .menu-dropdown a.level1 > span,
 .menu-dropdown span.level1 > span {
-	height: 50px;
-	padding: 0 17px;
-	font-size: 13px;
+	height: 60px;
+	padding: 0 20px;
+	font-size: 14px;
 	color: #FFF;
-	line-height: 54px;
+	line-height: 60px;
+	border-right: 1px solid #274061;
+	border-left: 1px solid #0C2F5C;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
 }
 
-li.level1 {
-	border-right: 1px solid #0A203C;
+.menu-dropdown span.level1 > a span:hover, .menu-dropdown span.level1 > span:hover {
+	background: #F7F7F7;
+	color: #00375C;
+	-webkit-transition: all 0.2s ease-out;
+	-moz-transition: all 0.2s ease-out;
+	-ms-transition: all 0.2s ease-out;
+	-o-transition: all 0.2s ease-out;
 }
-
 
 /* Drop-Down */
 .menu-dropdown .dropdown {
