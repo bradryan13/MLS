@@ -1,0 +1,180 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/* Colors
+
+Blue: #00699a
+
+
+ */
+
+@import url(../../../warp/css/layout.css);
+
+
+/* Spacing
+----------------------------------------------------------------------------------------------------*/
+
+.module,
+#breadcrumbs,
+#content { margin: 15px; }
+
+#top-a .module {
+    margin: 0px;
+    height: 529px;
+}
+
+#menu .module { margin: 10px 5px; }
+
+#footer .module { margin: 0; }
+
+
+/* Layout
+----------------------------------------------------------------------------------------------------*/
+
+.page { background: #f5f5f5; }
+.wrapper > div {
+	margin: 0 20px;
+}
+
+/* Header */
+#header {
+	display: table;
+	width: 100%;
+	background: #151515;
+	background: #002944;
+    background: -moz-linear-gradient(top,#002944 0%,#002236 100%);
+    background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#002944),color-stop(100%,#002236));
+    background: -webkit-linear-gradient(top,#002944 0%,#002236 100%);
+    background: -o-linear-gradient(top,#002944 0%,#002236 100%);
+    background: -ms-linear-gradient(top,#002944 0%,#002236 100%);
+    background: linear-gradient(to bottom,#002944 0%,#002236 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002944',endColorstr='#002236',GradientType=0 );
+	/* border-bottom: 3px solid #00699a; */
+	height: 50px;
+	border-bottom: solid #C0C0C0 5px;
+}
+
+#logo {
+	width: 250px;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 20px;
+	height: 200px;
+	margin-left: 20px;
+}
+
+#logo,
+#logo > img { float: none; }
+
+
+/* Header Bars */
+#toolbar {
+	padding: 7px 7px 7px 15px;
+	background: #252525;
+	background: -moz-linear-gradient(top, #252525 50%, #1f1f1f 100%);
+	background: -webkit-linear-gradient(top, #252525 50%, #1f1f1f 100%);
+	background: -o-linear-gradient(top, #252525 50%, #1f1f1f 100%);
+	background: linear-gradient(to bottom, #252525 50%, #1f1f1f 100%);
+	box-shadow: 0 1px 0 rgba(255,255,255,0.05);
+	line-height: 26px;
+	font-size: 12px;
+	display: inline;
+}
+
+#headerbar { padding: 15px 15px 0 15px; /* display: inline; */ width: 100%; background: red; width: 1200px;
+	margin: auto;}
+#headerbar .module {
+	margin: 0 15px 0 0;
+	float: left;
+	
+}
+
+#menu {
+	left: 300px;
+	float: right;
+}
+
+/* Block Separators */
+#top-a:after,
+#top-b:after,
+#innertop:after {
+	content: "";
+	display: block;
+	border-bottom: 1px solid #eee;
+}
+
+#bottom-a:before,
+#bottom-b:before,
+#innerbottom:before {
+	content: "";
+	display: block;
+	border-top: 1px solid #eee;
+}
+
+/* Remove Block Separators if System Output is disabled */
+#header + #bottom-a:before,
+#header + #bottom-b:before,
+#top-a + #bottom-a:before,
+#top-a + #bottom-b:before,
+#top-b + #bottom-a:before,
+#top-b + #bottom-b:before { border: none; }
+
+/* Sidebar Backgrounds */
+#sidebar-a,
+#sidebar-b { position: relative; }
+
+#sidebar-a:before,
+#sidebar-b:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border: 0 solid #eee;
+}
+
+.sidebar-a-right #sidebar-a:before,
+.sidebar-b-right #sidebar-b:before { border-width: 0 0 0 1px; }
+
+.sidebar-a-left #sidebar-a:before,
+.sidebar-b-left #sidebar-b:before {
+	right: -1px;
+	border-width: 0 1px 0 0;
+}
+
+/* Footer + Header */
+#toolbar,
+#toolbar a,
+#headerbar,
+#footer { color: #777; }
+#headerbar a,
+#footer a { color: #bbb; }
+#toolbar a:hover,
+#headerbar a:hover,
+#footer a:hover { color: #fff; }
+
+/* Footer */
+#footer {
+	padding: 15px;
+	background: #333;
+	text-align: left;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+#totop-scroller {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 1;
+	width: 20px;
+	height: 20px;
+	background: url(../images/totop_scroller.png) 50% 0 no-repeat;
+	text-decoration: none;
+}
+
+#totop-scroller:hover { background-position: 50% -20px; }
+

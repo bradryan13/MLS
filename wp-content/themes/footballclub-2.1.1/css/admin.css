@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* Football Club Admin Styles */
+
+@import url('admin-buttons.css');
+
+/* General */
+.ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 100%;
+}
+
+.form-field input[type="checkbox"] {
+	width: auto;
+}
+.statsdiv div.tabs-panel,
+.playersdiv div.tabs-panel {
+	height: 200px;
+	overflow: auto;
+	padding: .5em .9em;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* Menu Icons */
+#adminmenu #toplevel_page_themeboy div.wp-menu-image,
+#adminmenu #menu-posts-tb_club div.wp-menu-image,
+#adminmenu #menu-posts-tb_player div.wp-menu-image,
+#adminmenu #menu-posts-tb_staff div.wp-menu-image,
+#adminmenu #menu-posts-tb_match div.wp-menu-image,
+#adminmenu #menu-posts-tb_sponsor div.wp-menu-image {
+	background: transparent url('../images/admin/menu.png?ver=20120622') no-repeat scroll 0 -33px;
+}
+#adminmenu #toplevel_page_themeboy div.wp-menu-image img {
+	display: none;
+}
+#adminmenu #toplevel_page_themeboy:hover div.wp-menu-image, #adminmenu #toplevel_page_themeboy.wp-has-current-submenu div.wp-menu-image {
+	background: transparent url('../images/admin/menu.png?ver=20120622') no-repeat scroll 0 -1px;
+}
+#adminmenu #menu-posts-tb_club div.wp-menu-image {
+	background-position: -30px -33px;
+}
+#adminmenu #menu-posts-tb_club:hover div.wp-menu-image, #adminmenu #menu-posts-tb_club.wp-has-current-submenu div.wp-menu-image {
+	background-position: -30px -1px;
+}
+#adminmenu #menu-posts-tb_player div.wp-menu-image {
+	background-position: -60px -33px;
+}
+#adminmenu #menu-posts-tb_player:hover div.wp-menu-image, #adminmenu #menu-posts-tb_player.wp-has-current-submenu div.wp-menu-image {
+	background-position: -60px -1px;
+}
+#adminmenu #menu-posts-tb_staff div.wp-menu-image {
+	background-position: -90px -33px;
+}
+#adminmenu #menu-posts-tb_staff:hover div.wp-menu-image, #adminmenu #menu-posts-tb_staff.wp-has-current-submenu div.wp-menu-image {
+	background-position: -90px -1px;
+}
+#adminmenu #menu-posts-tb_match div.wp-menu-image {
+	background-position: -120px -33px;
+}
+#adminmenu #menu-posts-tb_match:hover div.wp-menu-image, #adminmenu #menu-posts-tb_match.wp-has-current-submenu div.wp-menu-image {
+	background-position: -120px -1px;
+}
+#adminmenu #menu-posts-tb_sponsor div.wp-menu-image {
+	background-position: -150px -33px;
+}
+#adminmenu #menu-posts-tb_sponsor:hover div.wp-menu-image, #adminmenu #menu-posts-tb_sponsor.wp-has-current-submenu div.wp-menu-image {
+	background-position: -150px -1px;
+}
+#icon-edit.icon32-posts-tb_club,
+#icon-edit.icon32-posts-tb_player,
+#icon-edit.icon32-posts-tb_staff,
+#icon-edit.icon32-posts-tb_match,
+#icon-edit.icon32-posts-tb_sponsor,
+#icon-edit.icon32-posts-tb_club,
+body.toplevel_page_themeboy #icon-options-general,
+body.theme-options_page_themeboy-social #icon-options-general,
+body.theme-options_page_themeboy-rotator #icon-options-general,
+body.theme-options_page_themeboy-team #icon-options-general,
+body.theme-options_page_themeboy-standings #icon-options-general,
+body.theme-options_page_themeboy-contact #icon-options-general,
+body.theme-options_page_themeboy-customize #icon-options-general,
+body.theme-options_page_themeboy-advanced #icon-options-general,
+body.theme-options_page_themeboy-reset #icon-options-general {	
+	background: transparent url('../images/admin/icons32.png?ver=20120531') no-repeat scroll -11px -5px;
+}
+#icon-edit.icon32-posts-tb_club { background-position: -71px -5px; }
+#icon-edit.icon32-posts-tb_player { background-position: -131px -5px; }
+#icon-edit.icon32-posts-tb_staff { background-position: -191px -5px; }
+#icon-edit.icon32-posts-tb_match { background-position: -251px -5px; }
+#icon-edit.icon32-posts-tb_sponsor { background-position: -311px -5px; }
+
+/* Club Columns */
+.fixed .column-crest {
+	width: 39px;
+}
+.fixed .column-p, .fixed .column-w, .fixed .column-d, .fixed .column-l, .fixed .column-f, .fixed .column-a, .fixed .column-gd, .fixed .column-pts {
+	width: 32px;
+}
+
+/* Club Details */
+#poststuff #tb_club-stats-meta table input[type="text"] {
+	width: 3.2em;
+}
+
+/* Match Columns */
+.fixed .column-comp, .fixed .column-season, .fixed .column-venue, .fixed .column-date, .fixed .column-kickoff {
+	width: 12%;
+}
+.fixed .column-results {
+	width: 8%;
+}
+
+/* Match Details */
+#poststuff #tb_match-fixture-meta table {
+	margin: 0 auto;
+}
+#poststuff #tb_match-fixture-meta table .tb-swap-teams-button {
+	display: block;
+	width: 32px;
+	height: 32px;
+	background: url(../images/admin/buttons.png) no-repeat 0 0;
+	cursor: pointer;
+}
+#poststuff #tb_match-fixture-meta table .tb-swap-teams-button:hover {
+	background-position: 0 -40px;
+}
+#poststuff #tb_match-fixture-meta table select {
+	width: 100%;
+}
+#poststuff #tb_match-players-meta table input[type="number"] {
+	width: 50px;
+}
+#poststuff #tb_match-players-meta table tr .cb {
+	width: 1.5em;
+}
+
+/* Player Columns */
+.fixed .column-number {
+	width: 39px;
+}
+.fixed .column-position,.fixed .column-club, .fixed .column-team, .fixed .column-natl, .fixed .column-dob {
+	width: 12%;
+}
+
+/* Player Details */
+#poststuff #tb_player-basic-meta #dob_day {
+	width: 2em;
+}
+#poststuff #tb_player-basic-meta #dob_year {
+	width: 3.4em;
+}
+#poststuff #tb_player-stats-meta table input[type="text"] {
+	width: 5em;
+}
+
+/* Club Details */
+.statisticsdiv div.tabs-panel {
+	margin: 0 5px 0 125px;
+	height: auto;
+	overflow: auto;
+	padding: .5em .9em 1em;
+	border-style: solid;
+	border-width: 1px;
+}
+
+/* Widget List */
+.widget[id*='tb_fixtures-'] .widget-title,
+.widget[id*='tb_results-'] .widget-title,
+.widget[id*='tb_standings-'] .widget-title,
+.widget[id*='tb_facebook-'] .widget-title,
+.widget[id*='tb_twitter-'] .widget-title,
+.widget[id*='tb_image-'] .widget-title,
+.widget[id*='tb_ground-'] .widget-title {
+	text-indent: 18px;
+	background: url(../images/admin/themeboy16.png) no-repeat 7px center;
+}
+
+/* Admin Bar */
+#wpadminbar .themeboy-menu {
+	text-indent: 18px;
+	background: url(../images/admin/themeboy16.png) no-repeat 7px center;
+}

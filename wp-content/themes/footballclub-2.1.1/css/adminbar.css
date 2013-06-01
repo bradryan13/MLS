@@ -1,0 +1,6 @@
+/* Admin Bar */
+#wpadminbar #wp-admin-bar-themeboy > .ab-item .ab-icon {
+	background-image: url(../images/admin/themeboy-adminbar.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+}

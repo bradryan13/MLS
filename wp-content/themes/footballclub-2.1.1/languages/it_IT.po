@@ -1,0 +1,2435 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Football Club\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-28 03:28+1000\n"
+"PO-Revision-Date: 2012-08-28 03:29+1000\n"
+"Last-Translator: Takumi Miyaji <takumi@themeboy.com>\n"
+"Language-Team: Mediatheme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en_GB\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_ex\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:6
+#: ../loop.php:21
+msgid "Not Found"
+msgstr "Non Trovato"
+
+#: ../404.php:11
+msgid "Apologies, but the page you requested could not be found. Perhaps searching will help."
+msgstr "Ci scusiamo, ma la pagina che hai richiesto non è stata trovata. Forse la ricerca sarà di aiuto."
+
+#: ../footer.php:14
+msgid "Designed by"
+msgstr "Powered by"
+
+#: ../header.php:12
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: ../header.php:83
+msgid "Facebook"
+msgstr "Facebook"
+
+#: ../header.php:84
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../header.php:85
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: ../header.php:86
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: ../header.php:87
+msgid "Google+"
+msgstr "Google+"
+
+#: ../header.php:88
+msgid "YouTube"
+msgstr "YouTube"
+
+#: ../header.php:89
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ../loop-match.php:3
+msgid "Results"
+msgstr "Risultati"
+
+#: ../loop-match.php:3
+msgid "Fixture"
+msgstr "Calendario"
+
+#: ../loop-onecolumn.php:24
+#: ../loop-page.php:20
+#: ../loop-single.php:22
+#: ../loop-sponsor.php:16
+#: ../loop.php:87
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: ../loop-onecolumn.php:25
+#: ../loop-single.php:41
+#: ../loop.php:109
+msgid "Edit"
+msgstr "Modifica"
+
+#: ../loop-player.php:1
+msgid "Player Profile"
+msgstr "Profilo Giocatore"
+
+#: ../loop-single.php:34
+#, php-format
+msgid "View all posts by %s"
+msgstr "Guarda tutti i messaggi di %s"
+
+#: ../loop-sponsor.php:1
+msgid "Official Sponsors"
+msgstr "Sponsors Ufficiali"
+
+#: ../loop-sponsor.php:19
+msgid "Visit Website"
+msgstr "Visita il sito"
+
+#: ../loop-staff.php:2
+msgid "Staff Profile"
+msgstr "Profilo Allenatore"
+
+#: ../loop.php:12
+msgid "Older posts"
+msgstr "Messaggi più vecchi"
+
+#: ../loop.php:13
+msgid "Newer posts"
+msgstr "Messaggi più recenti"
+
+#: ../loop.php:23
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Ci scusiamo, ma non sono stati trovati risultati per l'archivio richiesto. Forse la ricerca vi aiuterà a trovare un post correlato."
+
+#: ../loop.php:34
+#: ../loop.php:65
+#: ../loop.php:66
+msgid "gallery"
+msgstr "galleria"
+
+#: ../loop.php:63
+#: ../loop.php:66
+msgid "More Galleries"
+msgstr "Altre Gallerie"
+
+#: ../loop.php:69
+#: ../loop.php:108
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: ../loop.php:69
+#: ../loop.php:108
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: ../loop.php:69
+#: ../loop.php:108
+msgid "% Comments"
+msgstr "% Commenti"
+
+#: ../loop.php:82
+#: ../loop.php:86
+msgid "Continue reading"
+msgstr "Continua a leggere"
+
+#: ../loop.php:95
+#, php-format
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Postato in</span> %2$s"
+
+#: ../loop.php:104
+#, php-format
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Taggato</span> %2$s"
+
+#: ../search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati della ricerca per: %s"
+
+#: ../search.php:21
+msgid "Nothing Found"
+msgstr "Nessun Risultato"
+
+#: ../search.php:23
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Ci dispiace, ma non corrisponde ai tuoi criteri di ricerca. Si prega di riprovare con parole chiave diverse."
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "Cerca"
+
+#: ../sidebar-home.php:6
+#: ../sidebar.php:8
+msgid "Archives"
+msgstr "Archivi"
+
+#: ../sidebar-home.php:12
+#: ../sidebar.php:15
+msgid "Meta"
+msgstr "Meta"
+
+#: ../inc/ajax-club_buttons.php:55
+#: ../inc/ajax-match_shortcode.php:14
+#: ../inc/ajax-player_shortcode.php:14
+#, php-format
+msgid "Select %s"
+msgstr "Selezionare %s"
+
+#: ../inc/ajax-club_buttons.php:55
+#: ../inc/ajax-fixtures_shortcode.php:67
+#: ../inc/ajax-players_shortcode.php:49
+msgid "Club"
+msgstr "Club"
+
+#: ../inc/ajax-contact_shortcode.php:15
+#: ../inc/ajax-fixtures_shortcode.php:23
+#: ../inc/ajax-players_shortcode.php:22
+msgid "Title"
+msgstr "Titolo"
+
+#: ../inc/ajax-contact_shortcode.php:20
+msgid "Email Address"
+msgstr "Indirizzo e-mail"
+
+#: ../inc/ajax-contact_shortcode.php:25
+#: ../inc/ajax-fixtures_shortcode.php:136
+#: ../inc/ajax-map_shortcode.php:31
+#: ../inc/ajax-match_shortcode.php:32
+#: ../inc/ajax-player_shortcode.php:30
+#: ../inc/ajax-players_shortcode.php:130
+#, php-format
+msgid "Insert %s"
+msgstr "Inserisci %s"
+
+#: ../inc/ajax-contact_shortcode.php:25
+msgid "Contact Form"
+msgstr "Contact Form"
+
+#: ../inc/ajax-fixtures_shortcode.php:13
+msgid "View all fixtures"
+msgstr "Visualizza tutti gli incontri"
+
+#: ../inc/ajax-fixtures_shortcode.php:15
+#: ../inc/ajax-fixtures_shortcode.php:136
+msgid "Fixtures"
+msgstr "Prossimi Incontri"
+
+#: ../inc/ajax-fixtures_shortcode.php:28
+#: ../inc/ajax-players_shortcode.php:27
+msgid "Limit"
+msgstr "Limitare"
+
+#: ../inc/ajax-fixtures_shortcode.php:29
+#: ../inc/ajax-players_shortcode.php:28
+msgid "0 = no limit"
+msgstr "0 = nessun limite"
+
+#: ../inc/ajax-fixtures_shortcode.php:33
+msgid "Competition"
+msgstr "Competition"
+
+#: ../inc/ajax-fixtures_shortcode.php:37
+#: ../inc/ajax-fixtures_shortcode.php:54
+#: ../inc/ajax-fixtures_shortcode.php:73
+#: ../inc/ajax-fixtures_shortcode.php:87
+#: ../inc/ajax-players_shortcode.php:36
+#: ../inc/ajax-players_shortcode.php:55
+#: ../inc/ajax-players_shortcode.php:69
+#: ../inc/ajax-players_shortcode.php:86
+msgid "All"
+msgstr "Tutti"
+
+#: ../inc/ajax-fixtures_shortcode.php:50
+#: ../inc/ajax-players_shortcode.php:32
+msgid "Season"
+msgstr "Stagione"
+
+#: ../inc/ajax-fixtures_shortcode.php:83
+msgid "Venue"
+msgstr "Luogo"
+
+#: ../inc/ajax-fixtures_shortcode.php:100
+msgid "Order by"
+msgstr "Ordina per"
+
+#: ../inc/ajax-fixtures_shortcode.php:105
+msgid "Order"
+msgstr "Ordine"
+
+#: ../inc/ajax-fixtures_shortcode.php:117
+#: ../inc/ajax-players_shortcode.php:99
+msgid "Link text"
+msgstr "Link text"
+
+#: ../inc/ajax-fixtures_shortcode.php:122
+#: ../inc/ajax-players_shortcode.php:104
+msgid "Link page"
+msgstr "Link page"
+
+#: ../inc/ajax-fixtures_shortcode.php:126
+#: ../inc/ajax-match_shortcode.php:20
+#: ../inc/ajax-player_shortcode.php:20
+#: ../inc/ajax-players_shortcode.php:108
+msgid "None"
+msgstr "Nessuno"
+
+#: ../inc/ajax-map_shortcode.php:16
+msgid "Address"
+msgstr "Indirizzo"
+
+#: ../inc/ajax-map_shortcode.php:21
+msgid "Width"
+msgstr "Indirizzo"
+
+#: ../inc/ajax-map_shortcode.php:26
+msgid "Height"
+msgstr "Altezza"
+
+#: ../inc/ajax-map_shortcode.php:31
+msgid "Map"
+msgstr "Mappa"
+
+#: ../inc/ajax-match_shortcode.php:14
+#: ../inc/ajax-match_shortcode.php:32
+msgid "Match"
+msgstr "Partita"
+
+#: ../inc/ajax-player_shortcode.php:14
+msgid "Player"
+msgstr "Giocatore"
+
+#: ../inc/ajax-players_shortcode.php:11
+msgid "View all players"
+msgstr "Visualizza tutti i giocatori"
+
+#: ../inc/ajax-players_shortcode.php:13
+#: ../inc/ajax-players_shortcode.php:130
+msgid "Players"
+msgstr "Giocatori"
+
+#: ../inc/ajax-players_shortcode.php:65
+msgid "Team"
+msgstr "Squadra"
+
+#: ../inc/ajax-players_shortcode.php:82
+msgid "Position"
+msgstr "Ruolo"
+
+#: ../inc/ajax-players_shortcode.php:118
+msgid "Type"
+msgstr "Tipo"
+
+#: ../inc/ajax-results_shortcode.php:13
+msgid "View all results"
+msgstr "Visualizza tutti i risultati"
+
+#: ../inc/ajax-rotator_shortcode.php:14
+msgid "Show posts from category"
+msgstr "Mostra messaggi dalla categoria"
+
+#: ../inc/ajax-rotator_shortcode.php:29
+msgid "Image Rotator"
+msgstr "Image Rotator"
+
+#: ../inc/ajax-staff_shortcode.php:10
+#: ../inc/ajax-staff_shortcode.php:100
+msgid "Staff"
+msgstr "Allenatore"
+
+#: ../inc/ajax-staff_shortcode.php:12
+msgid "View all staff"
+msgstr "Visualizza tutti gli Allenatori"
+
+#: ../inc/ajax-standings_shortcode.php:12
+msgid "View all standings"
+msgstr "Visualizza tutte le classifiche"
+
+#: ../inc/ajax-standings_shortcode.php:15
+#: ../inc/ajax-standings_shortcode.php:150
+msgid "Standings"
+msgstr "Classifica"
+
+#: ../inc/ajax-standings_shortcode.php:92
+msgid "Random"
+msgstr "Casuale"
+
+#: ../inc/ajax-standings_shortcode.php:129
+#: ../inc/post-type-club.php:45
+msgid "Statistics"
+msgstr "Statistica"
+
+#: ../inc/defaults.php:6
+msgid "Primary Theme Color"
+msgstr "Colore primario Tema "
+
+#: ../inc/defaults.php:7
+msgid "Secondary Theme Color"
+msgstr "Colore secondario Tema "
+
+#: ../inc/defaults.php:8
+msgid "Tagline Color"
+msgstr "Colore Tagline"
+
+#: ../inc/defaults.php:9
+msgid "Menu Text Color"
+msgstr "Colore del testo del Menu"
+
+#: ../inc/defaults.php:10
+msgid "Menu Background Color"
+msgstr "Colore di sfondo del menu"
+
+#: ../inc/defaults.php:11
+msgid "Image Rotator Text Color"
+msgstr "Colore del testo per l'Image Rotator"
+
+#: ../inc/defaults.php:12
+msgid "Image Rotator Background Color"
+msgstr "Colore di sfondo per l'Image Rotator"
+
+#: ../inc/defaults.php:13
+msgid "Content Text Color"
+msgstr "Colore del testo del Contenuto"
+
+#: ../inc/defaults.php:14
+msgid "Content Background Color"
+msgstr "Colore di sfondo del Contenuto"
+
+#: ../inc/defaults.php:15
+msgid "Sidebar Background Color"
+msgstr "Sidebar Colore di sfondo"
+
+#: ../inc/defaults.php:16
+msgid "Widget Background Color"
+msgstr "Widget Colore di sfondo"
+
+#: ../inc/defaults.php:17
+msgid "Sponsors Background Color"
+msgstr "Sponsor colore di sfondo"
+
+#: ../inc/defaults.php:18
+msgid "Footer Background Color"
+msgstr "Colore Sfondo Footer"
+
+#: ../inc/defaults.php:22
+msgid "Header Logo Image"
+msgstr "logo del'immagine di intestazione"
+
+#: ../inc/defaults.php:23
+msgid "Footer Logo Image"
+msgstr "Logo del'immagine a piè di pagina"
+
+#: ../inc/defaults.php:24
+msgid "Shortcut Icon Image"
+msgstr "Icona Immagine scorciatoia"
+
+#: ../inc/defaults.php:84
+msgid "Pos"
+msgstr "Pos"
+
+#: ../inc/defaults.php:85
+msgid "P"
+msgstr "P"
+
+#: ../inc/defaults.php:86
+msgid "W"
+msgstr "W"
+
+#: ../inc/defaults.php:87
+msgid "D"
+msgstr "D"
+
+#: ../inc/defaults.php:88
+msgid "L"
+msgstr "L"
+
+#: ../inc/defaults.php:89
+msgid "F"
+msgstr "F"
+
+#: ../inc/defaults.php:90
+msgid "A"
+msgstr "A"
+
+#: ../inc/defaults.php:91
+msgid "GD"
+msgstr "GD"
+
+#: ../inc/defaults.php:92
+msgid "Pts"
+msgstr "Pts"
+
+#: ../inc/defaults.php:97
+msgid "Thanks, your email was sent successfully."
+msgstr "Grazie, la tua mail è stata inviata con successo."
+
+#: ../inc/defaults.php:98
+msgid "Oops! There was a problem sending your message. Please fix the errors below."
+msgstr "Oops! C'è stato un problema l'invio del messaggio. Si prega di correggere gli errori di seguito."
+
+#: ../inc/defaults.php:99
+msgid "Thank you for your message"
+msgstr "Grazie per il tuo messaggio"
+
+#: ../inc/defaults.php:100
+msgid "Our team will be in touch with you shortly."
+msgstr "Vi contatteremo il prima possibile"
+
+#: ../inc/defaults.php:112
+msgid "vs"
+msgstr "vs"
+
+#: ../inc/defaults.php:119
+msgid "Lowest to highest"
+msgstr "Dal più basso al più alto"
+
+#: ../inc/defaults.php:120
+msgid "Highest to lowest"
+msgstr "Dal più alto al più basso"
+
+#: ../inc/defaults.php:125
+msgid "List"
+msgstr "Lista"
+
+#: ../inc/defaults.php:126
+msgid "Gallery"
+msgstr "Galleria"
+
+#: ../inc/defaults.php:143
+#: ../inc/helpers-match.php:59
+msgid "Goals"
+msgstr "Goals"
+
+#: ../inc/defaults.php:144
+#: ../inc/helpers-match.php:60
+msgid "Assists"
+msgstr "Assist"
+
+#: ../inc/defaults.php:145
+#: ../inc/helpers-match.php:61
+msgid "Yellow Cards"
+msgstr "Cartellini Gialli"
+
+#: ../inc/defaults.php:146
+#: ../inc/helpers-match.php:62
+msgid "Red Cards"
+msgstr "Cartellini Rossi"
+
+#: ../inc/helpers-match.php:48
+#: ../inc/post-type-club.php:20
+#, php-format
+msgid "No %s found"
+msgstr "No %s trovato"
+
+#: ../inc/helpers-match.php:48
+msgid "players"
+msgstr "giocatori"
+
+#: ../inc/helpers-match.php:64
+msgid "Substitution"
+msgstr "Sostituzione"
+
+#: ../inc/helpers-match.php:110
+msgid "Goal"
+msgstr "Goal"
+
+#: ../inc/helpers-match.php:113
+msgid "Assist"
+msgstr "Assist"
+
+#: ../inc/helpers-match.php:116
+msgid "Yellow Card"
+msgstr "Cartellino Giallo"
+
+#: ../inc/helpers-match.php:119
+msgid "Red Card"
+msgstr "Cartellino Rosso"
+
+#: ../inc/helpers-match.php:122
+msgid "Sub"
+msgstr "Sub"
+
+#: ../inc/helpers-player.php:177
+#: ../inc/post-type-club.php:73
+msgid "Auto"
+msgstr "Auto"
+
+#: ../inc/helpers-player.php:183
+#: ../inc/post-type-club.php:79
+msgid "Manual"
+msgstr "Manual"
+
+#: ../inc/helpers.php:275
+msgid "Tweet"
+msgstr "Tweet"
+
+#: ../inc/post-type-club.php:11
+#: ../inc/post-type-club.php:14
+#: ../inc/post-type-club.php:19
+#: ../inc/post-type-club.php:23
+msgid "Clubs"
+msgstr "Clubs"
+
+#: ../inc/post-type-club.php:13
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: ../inc/post-type-club.php:14
+#: ../inc/post-type-club.php:104
+#: ../inc/post-type-club.php:122
+#: ../inc/post-type-club.php:125
+#, php-format
+msgid "All %s"
+msgstr "Tutti %s"
+
+#: ../inc/post-type-club.php:15
+#, php-format
+msgid "Add New %s"
+msgstr "Aggiungi Nuovo %s"
+
+#: ../inc/post-type-club.php:16
+#, php-format
+msgid "Edit %s"
+msgstr "Modifica %s"
+
+#: ../inc/post-type-club.php:17
+#, php-format
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: ../inc/post-type-club.php:18
+#, php-format
+msgid "View %s"
+msgstr "View %s"
+
+#: ../inc/post-type-club.php:19
+#, php-format
+msgid "Search %s"
+msgstr "Cerca %s"
+
+#: ../inc/post-type-club.php:20
+#: ../inc/post-type-club.php:21
+msgid "clubs"
+msgstr "clubs"
+
+#: ../inc/post-type-club.php:21
+#, php-format
+msgid "No %s found in trash"
+msgstr "No %s trovato nella spazzatura"
+
+#: ../inc/post-type-club.php:22
+#, php-format
+msgid "Parent %s:"
+msgstr "Genitore %s:"
+
+#: ../inc/post-type-club.php:104
+#: ../inc/post-type-club.php:125
+msgid "Seasons"
+msgstr "Stagioni"
+
+#: ../inc/post-type-club.php:122
+msgid "Competitions"
+msgstr "Campionati"
+
+#: ../inc/post-type-club.php:260
+#: ../inc/post-type-club.php:270
+#, php-format
+msgid "Show all %s"
+msgstr "Mostra tutto %s"
+
+#: ../inc/post-type-club.php:260
+msgid "competitions"
+msgstr "competitions"
+
+#: ../inc/post-type-club.php:270
+msgid "seasons"
+msgstr "campionato"
+
+#: ../inc/post-type-match.php:15
+#: ../inc/post-type-match.php:18
+#: ../inc/post-type-match.php:23
+#: ../inc/post-type-match.php:27
+msgid "Matches"
+msgstr "Partite"
+
+#: ../inc/post-type-match.php:24
+#: ../inc/post-type-match.php:25
+msgid "matches"
+msgstr "partite"
+
+#: ../inc/post-type-match.php:59
+#, php-format
+msgid "Kick-off: <b>%1$s</b>"
+msgstr "Fuorigioco: <b>%1$s</b>"
+
+#: ../inc/post-type-match.php:99
+msgid "Match Details"
+msgstr "Dettagli Partita"
+
+#: ../inc/post-type-match.php:185
+#: ../inc/post-type-match.php:240
+#: ../inc/post-type-match.php:294
+#: ../inc/shortcode-fixtures.php:144
+#: ../inc/shortcode-match.php:49
+#: ../inc/shortcode-results.php:145
+msgid "Home"
+msgstr "In Casa"
+
+#: ../inc/post-type-match.php:186
+#: ../inc/post-type-match.php:242
+#: ../inc/post-type-match.php:307
+#: ../inc/shortcode-fixtures.php:145
+#: ../inc/shortcode-match.php:79
+#: ../inc/shortcode-results.php:146
+msgid "Away"
+msgstr "Ospiti"
+
+#: ../inc/post-type-match.php:201
+msgid "Total"
+msgstr "Totale"
+
+#: ../inc/post-type-match.php:296
+#: ../inc/post-type-match.php:309
+msgid "Starting Lineup"
+msgstr "Informazioni sulla partita"
+
+#: ../inc/post-type-match.php:297
+#: ../inc/post-type-match.php:310
+msgid "Substitutes"
+msgstr "Sostituzioni"
+
+#: ../inc/post-type-match.php:464
+#: ../inc/shortcode-fixtures.php:143
+#: ../inc/shortcode-results.php:144
+msgid "Date"
+msgstr "Data"
+
+#: ../inc/post-type-match.php:465
+#: ../inc/shortcode-fixtures.php:146
+msgid "Kick-off"
+msgstr "Fuorigioco"
+
+#: ../inc/post-type-match.php:527
+msgid "venues"
+msgstr "luoghi"
+
+#: ../inc/post-type-player.php:50
+#: ../inc/post-type-sponsor.php:48
+#: ../inc/post-type-staff.php:49
+msgid "Basic Information"
+msgstr "Informazioni di base"
+
+#: ../inc/post-type-player.php:90
+#: ../inc/shortcode-player.php:38
+msgid "Number"
+msgstr "Numero"
+
+#: ../inc/post-type-player.php:107
+#: ../inc/post-type-player.php:270
+#: ../inc/post-type-staff.php:95
+#: ../inc/post-type-staff.php:138
+msgid "Date of Birth"
+msgstr "Data di Nascita"
+
+#: ../inc/post-type-player.php:119
+#: ../inc/post-type-player.php:269
+#: ../inc/post-type-staff.php:107
+#: ../inc/post-type-staff.php:137
+#: ../inc/shortcode-player.php:107
+msgid "Nationality"
+msgstr "Nazionalità"
+
+#: ../inc/post-type-player.php:156
+msgid "All Teams"
+msgstr "Tutte le Squadre"
+
+#: ../inc/post-type-player.php:235
+#: ../inc/post-type-player.php:267
+#: ../inc/post-type-sponsor.php:56
+#: ../inc/post-type-sponsor.php:98
+#: ../inc/post-type-staff.php:57
+#: ../inc/post-type-staff.php:136
+#: ../inc/shortcode-contact.php:74
+#: ../inc/shortcode-player.php:42
+#: ../inc/shortcode-players.php:79
+msgid "Name"
+msgstr "Nome"
+
+#: ../inc/post-type-player.php:236
+#: ../inc/post-type-player.php:237
+#: ../inc/post-type-player.php:238
+#, php-format
+msgid "Joined on: <b>%1$s</b>"
+msgstr "Iscritto il: <b>%1$s</b>"
+
+#: ../inc/post-type-player.php:357
+#: ../inc/post-type-staff.php:198
+msgid "teams"
+msgstr "squadre"
+
+#: ../inc/post-type-sponsor.php:14
+#: ../inc/post-type-sponsor.php:17
+#: ../inc/post-type-sponsor.php:22
+#: ../inc/post-type-sponsor.php:26
+msgid "Sponsors"
+msgstr "Sponsors"
+
+#: ../inc/post-type-sponsor.php:15
+#: ../inc/post-type-sponsor.php:18
+#: ../inc/post-type-sponsor.php:19
+#: ../inc/post-type-sponsor.php:20
+#: ../inc/post-type-sponsor.php:21
+#: ../inc/post-type-sponsor.php:25
+msgid "Sponsor"
+msgstr "Sponsor"
+
+#: ../inc/post-type-sponsor.php:23
+#: ../inc/post-type-sponsor.php:24
+msgid "sponsors"
+msgstr "sponsors"
+
+#: ../inc/post-type-sponsor.php:68
+msgid "Link URL"
+msgstr "Link URL"
+
+#: ../inc/post-type-sponsor.php:74
+msgid "Link directly"
+msgstr "Link diretto"
+
+#: ../inc/post-type-sponsor.php:99
+msgid "URL"
+msgstr "URL"
+
+#: ../inc/post-type-sponsor.php:100
+msgid "Link directly?"
+msgstr "Link diretto?"
+
+#: ../inc/post-type-sponsor.php:117
+msgid "Yes"
+msgstr "Si"
+
+#: ../inc/post-type-sponsor.php:117
+msgid "No"
+msgstr "No"
+
+#: ../inc/post-type-staff.php:24
+#: ../inc/post-type-staff.php:25
+msgid "staff"
+msgstr "allenatore"
+
+#: ../inc/setup.php:71
+msgid "Primary Navigation"
+msgstr "Primary Navigation"
+
+#: ../inc/shortcode-contact.php:11
+msgid "Please enter your name."
+msgstr "Inserisci il tuo nome."
+
+#: ../inc/shortcode-contact.php:18
+msgid "Please enter your email address."
+msgstr "Inserisci il tuo indirizzo e-mail."
+
+#: ../inc/shortcode-contact.php:21
+msgid "You entered an invalid email address."
+msgstr "È stato inserito un indirizzo non valido di posta elettronica."
+
+#: ../inc/shortcode-contact.php:32
+msgid "Please enter a message."
+msgstr "Inserire il messaggio."
+
+#: ../inc/shortcode-contact.php:46
+msgid "You've received a new message from "
+msgstr "Hai ricevuto un nuovo messaggio da"
+
+#: ../inc/shortcode-contact.php:47
+#: ../inc/shortcode-contact.php:55
+msgid "Name:"
+msgstr "Nome:"
+
+#: ../inc/shortcode-contact.php:47
+#: ../inc/shortcode-contact.php:55
+msgid "Email:"
+msgstr "Email:"
+
+#: ../inc/shortcode-contact.php:47
+#: ../inc/shortcode-contact.php:55
+msgid "Team:"
+msgstr "Squadra:"
+
+#: ../inc/shortcode-contact.php:47
+#: ../inc/shortcode-contact.php:55
+msgid "Comments:"
+msgstr "Commenti:"
+
+#: ../inc/shortcode-contact.php:77
+msgid "Email"
+msgstr "Email"
+
+#: ../inc/shortcode-contact.php:80
+msgid "Team Name (optional)"
+msgstr "Nome Squadra (optional)"
+
+#: ../inc/shortcode-contact.php:82
+msgid "Message"
+msgstr "Messaggio"
+
+#: ../inc/shortcode-contact.php:87
+msgid "Send email"
+msgstr "Invia email"
+
+#: ../inc/shortcode-fixtures.php:118
+#: ../inc/shortcode-results.php:119
+msgid "@"
+msgstr "@"
+
+#: ../inc/shortcode-fixtures.php:129
+#: ../inc/shortcode-fixtures.php:151
+msgid "No more matches scheduled."
+msgstr "Nessuna partita in programma."
+
+#: ../inc/shortcode-match.php:37
+msgid "Score"
+msgstr "Punteggio"
+
+#: ../inc/shortcode-match.php:43
+msgid "Match Report"
+msgstr "Match Report"
+
+#: ../inc/shortcode-match.php:65
+#: ../inc/shortcode-match.php:95
+#: ../inc/shortcode-match.php:130
+#: ../inc/shortcode-match.php:163
+msgid "Subs"
+msgstr "Subs"
+
+#: ../inc/shortcode-match.php:114
+#: ../inc/shortcode-match.php:147
+msgid "Lineup"
+msgstr "Lineup"
+
+#: ../inc/shortcode-match.php:182
+msgid "Venue Information"
+msgstr "Informazioni sul luogo dell'incontro"
+
+#: ../inc/shortcode-player.php:46
+msgid "Birthday"
+msgstr "Compleanno"
+
+#: ../inc/shortcode-player.php:50
+#: ../inc/shortcode-players.php:83
+msgid "Age"
+msgstr "Età"
+
+#: ../inc/shortcode-player.php:92
+msgid "Appearances"
+msgstr "Presenze"
+
+#: ../inc/shortcode-player.php:102
+msgid "Joined"
+msgstr "Iscritto"
+
+#: ../inc/shortcode-player.php:135
+msgid "Profile"
+msgstr "Profilo"
+
+#: ../inc/shortcode-results.php:130
+#: ../inc/shortcode-results.php:152
+msgid "No matches played yet."
+msgstr "Non ci sono ancora partite giocate."
+
+#: ../inc/shortcode-rotator.php:68
+msgid "Read More"
+msgstr "Leggi tutto..."
+
+#: ../inc/sidebars.php:5
+msgid "Page Sidebar"
+msgstr "Page Sidebar"
+
+#: ../inc/sidebars.php:14
+msgid "Home Sidebar"
+msgstr "Home Sidebar"
+
+#: ../inc/sidebars.php:23
+msgid "Home Content Left"
+msgstr "Home Content Left"
+
+#: ../inc/sidebars.php:32
+msgid "Home Content Right"
+msgstr "Home Content Right"
+
+#: ../inc/sidebars.php:41
+msgid "Home Content Bottom"
+msgstr "Home Content Bottom"
+
+#: ../inc/sidebars.php:50
+msgid "Footer Widget 1"
+msgstr "Footer Widget 1"
+
+#: ../inc/sidebars.php:59
+msgid "Footer Widget 2"
+msgstr "Footer Widget 2"
+
+#: ../inc/taxonomy-comp.php:15
+#: ../inc/taxonomy-season.php:16
+#: ../inc/taxonomy-team.php:14
+#: ../inc/taxonomy-venue.php:19
+#, php-format
+msgid "Parent %s"
+msgstr "Parent %s"
+
+#: ../inc/taxonomy-comp.php:18
+#: ../inc/taxonomy-season.php:19
+#: ../inc/taxonomy-team.php:17
+#: ../inc/taxonomy-venue.php:22
+#, php-format
+msgid "Update %s"
+msgstr "Update %s"
+
+#: ../inc/taxonomy-position.php:10
+msgid "Positions"
+msgstr "Posizioni"
+
+#: ../inc/taxonomy-position.php:14
+msgid "Parent"
+msgstr "Parent"
+
+#: ../inc/taxonomy-position.php:15
+msgid "Parent:"
+msgstr "Parent:"
+
+#: ../inc/taxonomy-position.php:16
+msgid "Edit Position"
+msgstr "Modifica posizione"
+
+#: ../inc/taxonomy-position.php:17
+msgid "Update Position"
+msgstr "Aggiornamento Posizione"
+
+#: ../inc/taxonomy-position.php:18
+msgid "Add New Position"
+msgstr "Aggiungi Nuova Posizione"
+
+#: ../inc/taxonomy-position.php:19
+msgid "New Position Name"
+msgstr "Nuova Posizione Nome"
+
+#: ../inc/taxonomy-team.php:10
+#: ../inc/taxonomy-team.php:12
+#: ../inc/taxonomy-team.php:13
+msgid "Teams"
+msgstr "Squadre"
+
+#: ../inc/taxonomy-venue.php:15
+#: ../inc/taxonomy-venue.php:17
+#: ../inc/taxonomy-venue.php:18
+msgid "Venues"
+msgstr "Luoghi"
+
+#: ../inc/taxonomy-venue.php:58
+msgid "Venue Address"
+msgstr "Indirizzo luogo dell'evento "
+
+#: ../inc/themeboy-adminbar.php:12
+msgid "ThemeBoy"
+msgstr "ThemeBoy"
+
+#: ../inc/themeboy-adminbar.php:21
+#: ../inc/themeboy-general.php:6
+#: ../inc/themeboy-reset.php:48
+msgid "Theme Settings"
+msgstr "Theme Settings"
+
+#: ../inc/themeboy-adminbar.php:30
+#: ../inc/themeboy-adminbar.php:66
+#: ../inc/themeboy-reset.php:52
+#: ../inc/themeboy-social.php:6
+msgid "Social Network"
+msgstr "Social Network"
+
+#: ../inc/themeboy-adminbar.php:48
+#: ../inc/themeboy-reset.php:60
+msgid "Players & Staff"
+msgstr "Giocatori & Allenatore"
+
+#: ../inc/themeboy-adminbar.php:75
+#: ../inc/themeboy-customize.php:6
+msgid "Customize"
+msgstr "Customize"
+
+#: ../inc/themeboy-adminbar.php:84
+#: ../inc/themeboy-advanced.php:6
+#: ../inc/themeboy-advanced.php:15
+#: ../inc/themeboy-reset.php:76
+msgid "Advanced Options"
+msgstr "Advanced Options"
+
+#: ../inc/themeboy-advanced.php:10
+#: ../inc/themeboy-contact.php:10
+#: ../inc/themeboy-customize.php:16
+#: ../inc/themeboy-general.php:10
+#: ../inc/themeboy-homepage.php:10
+#: ../inc/themeboy-reset.php:12
+#: ../inc/themeboy-rotator.php:10
+#: ../inc/themeboy-social.php:10
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non si dispone di autorizzazioni sufficienti per accedere a questa pagina."
+
+#: ../inc/themeboy-advanced.php:24
+#: ../inc/themeboy-contact.php:24
+#: ../inc/themeboy-customize.php:36
+#: ../inc/themeboy-general.php:24
+#: ../inc/themeboy-homepage.php:24
+#: ../inc/themeboy-rotator.php:24
+#: ../inc/themeboy-social.php:24
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: ../inc/themeboy-advanced.php:29
+msgid "Delimiters"
+msgstr "Delimitatori"
+
+#: ../inc/themeboy-advanced.php:34
+msgid "Site Title"
+msgstr "Titolo del sito"
+
+#: ../inc/themeboy-advanced.php:41
+msgid "Match clubs"
+msgstr "Partita club"
+
+#: ../inc/themeboy-advanced.php:48
+msgid "Match goals"
+msgstr "Partita obiettivi"
+
+#: ../inc/themeboy-advanced.php:55
+msgid "Other"
+msgstr "Altro"
+
+#: ../inc/themeboy-advanced.php:59
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: ../inc/themeboy-advanced.php:65
+msgid "Custom Scripts"
+msgstr "Custom Scripts"
+
+#: ../inc/themeboy-advanced.php:68
+msgid "Add your analytics code here."
+msgstr "Add your analytics code here."
+
+#: ../inc/themeboy-contact.php:15
+msgid "Contact Form Settings"
+msgstr "Contact Form Settings"
+
+#: ../inc/themeboy-contact.php:44
+msgid "Success Message"
+msgstr "messaggio inviato con successo"
+
+#: ../inc/themeboy-contact.php:50
+msgid "Error Message"
+msgstr "Errore Messaggio "
+
+#: ../inc/themeboy-contact.php:56
+msgid "Email Subject"
+msgstr "Oggetto e-mail"
+
+#: ../inc/themeboy-contact.php:62
+msgid "Thank You Email"
+msgstr "Email di ringraziamento"
+
+#: ../inc/themeboy-customize.php:27
+#: ../inc/themeboy-social.php:15
+msgid "Social Network Settings"
+msgstr "Social Network Settings"
+
+#: ../inc/themeboy-customize.php:45
+msgid "Primary Color"
+msgstr "Primary Color"
+
+#: ../inc/themeboy-customize.php:48
+msgid "Select a Color"
+msgstr "Select a Color"
+
+#: ../inc/themeboy-general.php:15
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: ../inc/themeboy-general.php:32
+msgid "Home Team"
+msgstr "Squadra di casa"
+
+#: ../inc/themeboy-general.php:48
+msgid "Country"
+msgstr "Nazione"
+
+#: ../inc/themeboy-general.php:58
+msgid "Header"
+msgstr "Header"
+
+#: ../inc/themeboy-general.php:87
+msgid "Footer"
+msgstr "Footer"
+
+#: ../inc/themeboy-homepage.php:6
+msgid "Homepage"
+msgstr "Homepage"
+
+#: ../inc/themeboy-homepage.php:15
+msgid "Homepage Settings"
+msgstr "Homepage Settings"
+
+#: ../inc/themeboy-homepage.php:32
+msgid "Homepage Widgets"
+msgstr "Homepage Widgets"
+
+#: ../inc/themeboy-homepage.php:49
+#: ../inc/themeboy-rotator.php:60
+msgid "Delay between slides"
+msgstr "Delay between slides"
+
+#: ../inc/themeboy-homepage.php:52
+#: ../inc/themeboy-rotator.php:63
+msgid "Seconds"
+msgstr "Seconds"
+
+#: ../inc/themeboy-reset.php:6
+msgid "Reset"
+msgstr "Reset"
+
+#: ../inc/themeboy-reset.php:17
+msgid "Reset Theme Settings"
+msgstr "Reset Theme Settings"
+
+#: ../inc/themeboy-reset.php:35
+msgid "Settings have been reset."
+msgstr "Le impostazioni sono state ripristinate."
+
+#: ../inc/themeboy-reset.php:44
+msgid "Reset to factory settings"
+msgstr "Ripristina impostazioni di fabbrica"
+
+#: ../inc/themeboy-reset.php:72
+msgid "Colors"
+msgstr "Colori"
+
+#: ../inc/themeboy-reset.php:78
+msgid "Warning: this cannot be undone."
+msgstr "Attenzione: questa operazione non può essere annullata."
+
+#: ../inc/themeboy-reset.php:84
+msgid "Submit"
+msgstr "Submit"
+
+#: ../inc/themeboy-rotator.php:15
+msgid "Image Rotator Settings"
+msgstr "Image Rotator Settings"
+
+#: ../inc/themeboy-rotator.php:47
+msgid "Show in image rotator"
+msgstr "Mostra nella rotazione immagini"
+
+#: ../inc/themeboy-social.php:38
+msgid "Show \"Like\" button on pages and posts"
+msgstr "\"Mi piace\" button"
+
+#: ../inc/themeboy-social.php:49
+msgid "Show \"Tweet\" button on pages and posts"
+msgstr "\"Tweet\" button"
+
+#: ../inc/themeboy-social.php:53
+#: ../inc/themeboy-social.php:54
+msgid "Username"
+msgstr "Nome utente"
+
+#: ../inc/themeboy-social.php:58
+#: ../inc/themeboy-social.php:59
+msgid "Hashtags"
+msgstr "Hashtag"
+
+#: ../inc/themeboy-standings.php:15
+msgid "Standings Settings"
+msgstr "Classifica Impostazioni"
+
+#: ../inc/themeboy-standings.php:29
+msgid "Scoring System"
+msgstr "Sistema di Calcolo"
+
+#: ../inc/themeboy-standings.php:34
+msgid "Win points"
+msgstr "Punti Vittorie"
+
+#: ../inc/themeboy-standings.php:41
+msgid "Draw points"
+msgstr "Punti Pareggi"
+
+#: ../inc/themeboy-standings.php:48
+msgid "Loss points"
+msgstr "Punti Sconfitte"
+
+#: ../inc/themeboy-standings.php:55
+msgid "Labels"
+msgstr "Etichette"
+
+#: ../inc/themeboy-standings.php:116
+msgid "PTS"
+msgstr "PTS"
+
+#: ../inc/themeboy-team.php:15
+msgid "Players & Staff Settings"
+msgstr "Giocatori & Allenatore Settings"
+
+#: ../inc/themeboy-team.php:32
+msgid "Display players as"
+msgstr "Visualizzare giocatori come"
+
+#: ../inc/themeboy-team.php:39
+msgid "Player Gallery"
+msgstr "Galleria Giocatori"
+
+#: ../inc/themeboy-team.php:47
+#: ../inc/themeboy-team.php:95
+msgid "Squad Number"
+msgstr "Numero Maglia"
+
+#: ../inc/themeboy-team.php:51
+msgid "Player List"
+msgstr "Lista Giocatori"
+
+#: ../inc/themeboy-team.php:139
+msgid "Hometown"
+msgstr "Città natale"
+
+#: ../inc/widget-facebook.php:9
+#: ../inc/widget-fixtures.php:9
+#: ../inc/widget-ground.php:9
+#: ../inc/widget-image.php:9
+#: ../inc/widget-results.php:9
+#: ../inc/widget-standings.php:9
+#: ../inc/widget-twitter.php:9
+msgid "ThemeBoy widget"
+msgstr "widget di ThemeBoy"
+
+#: ../inc/widget-facebook.php:35
+msgid "Find us on Facebook"
+msgstr "Seguici su Facebook"
+
+#: ../inc/widget-facebook.php:38
+#: ../inc/widget-twitter.php:44
+msgid "Title:"
+msgstr "Titolo:"
+
+#: ../inc/widget-facebook.php:42
+msgid "Facebook Page URL:"
+msgstr "URL pagina di Facebook:"
+
+#: ../inc/widget-facebook.php:47
+msgid "Show faces"
+msgstr "Show faces"
+
+#: ../inc/widget-facebook.php:49
+msgid "Show stream"
+msgstr "Show stream"
+
+#: ../inc/widget-facebook.php:52
+msgid "Color scheme:"
+msgstr "Colore schema:"
+
+#: ../inc/widget-facebook.php:54
+msgid "Light"
+msgstr "Light"
+
+#: ../inc/widget-facebook.php:55
+msgid "Dark"
+msgstr "Dark"
+
+#: ../inc/widget-ground.php:8
+#: ../inc/widget-ground.php:27
+msgid "Ground Status"
+msgstr "Campi"
+
+#: ../inc/widget-ground.php:36
+msgid "Text"
+msgstr "Testo"
+
+#: ../inc/widget-image.php:8
+msgid "Image Advertisement"
+msgstr "Immagine Pubblicità"
+
+#: ../inc/widget-image.php:32
+msgid "Image URL"
+msgstr "URL immagine"
+
+#: ../inc/widget-twitter.php:48
+msgid "Username:"
+msgstr "Username:"
+
+#: ../inc/widget-twitter.php:52
+msgid "Number of tweets to show:"
+msgstr "Numero di tweet da mostrare:"
+
+#: ../inc/widget-twitter.php:57
+msgid "Display avatar image"
+msgstr "Visualizzare l'immagine avatar"
+
+#~ msgid "Daily Archives: <span>%s</span>"
+#~ msgstr "Archivio giorno: <span>%s</span>"
+
+#~ msgid "Monthly Archives: <span>%s</span>"
+#~ msgstr "Archivio mese: <span>%s</span>"
+
+#~ msgid "Yearly Archives: <span>%s</span>"
+#~ msgstr "Archivio anno: <span>%s</span>"
+
+#~ msgid ""
+#~ "This post is password protected. Enter the password to view comments."
+#~ msgstr ""
+#~ "Questo post è protetto da password. Inserisci la password per "
+#~ "visualizzare i commenti."
+
+#~ msgid "Comments are closed."
+#~ msgstr "I commenti sono chiusi."
+
+#~ msgid "Leave a Reply"
+#~ msgstr "Lascia un commento"
+
+#~ msgid "Leave a Reply to %s"
+#~ msgstr "Lascia un commento a %s"
+
+#~ msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+#~ msgstr "Devi essere <a href=\"%s\">loggato</a> per lasciare un commento."
+
+#~ msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+#~ msgstr "Collegato come <a href=\"%1$s\">%2$s</a>."
+
+#~ msgid "Log out of this account"
+#~ msgstr "Esci da questo account"
+
+#~ msgid "Log out &raquo;"
+#~ msgstr "Esci &raquo;"
+
+#~ msgid "(required)"
+#~ msgstr "(richiesto)"
+
+#~ msgid "Mail (will not be published)"
+#~ msgstr "Mail (non sarà pubblicata)"
+
+#~ msgid "Website"
+#~ msgstr "Sito Web"
+
+#~ msgid "<strong>XHTML:</strong> You can use these tags: <code>%s</code>"
+#~ msgstr ""
+#~ "<strong>XHTML:</strong> È possibile utilizzare questi tag: <code>%s</code>"
+
+#~ msgid "Submit Comment"
+#~ msgstr "Invia il tuo commento"
+
+#~ msgid "<span class=\"meta-nav\">&#x25C2;</span> Older posts"
+#~ msgstr "<span class=\"meta-nav\">&#x25C2;</span> i messaggi più vecchi"
+
+#~ msgid "Newer posts <span class=\"meta-nav\">&#x25B8;</span>"
+#~ msgstr "Messaggi più recenti <span class=\"meta-nav\">&#x25B8;</span>"
+
+#~ msgid "View all posts by %s <span class=\"meta-nav\">&#x25B8;</span>"
+#~ msgstr ""
+#~ "Guarda tutti i messaggi di %s <span class=\"meta-nav\">&#x25B8;</span>"
+
+#~ msgid "&#x25C2;"
+#~ msgstr "&#x25C2;"
+
+#~ msgid "&#x25B8;"
+#~ msgstr "&#x25B8;"
+
+#~ msgid "<span class=\"meta-nav\">&#x25B8;</span> Continue reading"
+#~ msgstr "<span class=\"meta-nav\">&#x25B8;</span> Continua a leggere"
+
+#~ msgid "Continue reading <span class=\"meta-nav\">&#x25B8;</span>"
+#~ msgstr "Continua a leggere <span class=\"meta-nav\">&#x25B8;</span>"
+
+#~ msgid " - "
+#~ msgstr " - "
+
+#~ msgid "#"
+#~ msgstr "#"
+
+#~ msgid "MediaTheme"
+#~ msgstr "MediaTheme"
+
+#~ msgid "Title separator"
+#~ msgstr "Title separator"
+
+#~ msgid "Stats"
+#~ msgstr "Statistiche"
+
+#~ msgid "Tagline"
+#~ msgstr "キャッチコピー"
+
+#, fuzzy
+#~ msgid "Andorra"
+#~ msgstr "Andorra"
+
+#, fuzzy
+#~ msgid "United Arab Emirates"
+#~ msgstr "United Arab Emirates"
+
+#, fuzzy
+#~ msgid "Afghanistan"
+#~ msgstr "Afghanistan"
+
+#, fuzzy
+#~ msgid "Antigua and Barbuda"
+#~ msgstr "Antigua and Barbuda"
+
+#, fuzzy
+#~ msgid "Anguilla"
+#~ msgstr "Anguilla"
+
+#, fuzzy
+#~ msgid "Albania"
+#~ msgstr "Albania"
+
+#, fuzzy
+#~ msgid "Armenia"
+#~ msgstr "Armenia"
+
+#, fuzzy
+#~ msgid "Netherlands Antilles"
+#~ msgstr "Netherlands Antilles"
+
+#, fuzzy
+#~ msgid "Angola"
+#~ msgstr "Angola"
+
+#, fuzzy
+#~ msgid "Antarctica"
+#~ msgstr "Antarctica"
+
+#, fuzzy
+#~ msgid "Argentina"
+#~ msgstr "Argentina"
+
+#, fuzzy
+#~ msgid "American Samoa"
+#~ msgstr "American Samoa"
+
+#, fuzzy
+#~ msgid "Austria"
+#~ msgstr "Austria"
+
+#, fuzzy
+#~ msgid "Australia"
+#~ msgstr "Australia"
+
+#, fuzzy
+#~ msgid "Aruba"
+#~ msgstr "Aruba"
+
+#, fuzzy
+#~ msgid "Aland Islands"
+#~ msgstr "Aland Islands"
+
+#, fuzzy
+#~ msgid "Azerbaijan"
+#~ msgstr "Azerbaijan"
+
+#, fuzzy
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Bosnia and Herzegovina"
+
+#, fuzzy
+#~ msgid "Barbados"
+#~ msgstr "Barbados"
+
+#, fuzzy
+#~ msgid "Bangladesh"
+#~ msgstr "Bangladesh"
+
+#, fuzzy
+#~ msgid "Belgium"
+#~ msgstr "Belgium"
+
+#, fuzzy
+#~ msgid "Burkina Faso"
+#~ msgstr "Burkina Faso"
+
+#, fuzzy
+#~ msgid "Bulgaria"
+#~ msgstr "Bulgaria"
+
+#, fuzzy
+#~ msgid "Bahrain"
+#~ msgstr "Bahrain"
+
+#, fuzzy
+#~ msgid "Burundi"
+#~ msgstr "Burundi"
+
+#, fuzzy
+#~ msgid "Benin"
+#~ msgstr "Benin"
+
+#, fuzzy
+#~ msgid "Bermuda"
+#~ msgstr "Bermuda"
+
+#, fuzzy
+#~ msgid "Brunei Darrussalam"
+#~ msgstr "Brunei Darrussalam"
+
+#, fuzzy
+#~ msgid "Bolivia"
+#~ msgstr "Bolivia"
+
+#, fuzzy
+#~ msgid "Brazil"
+#~ msgstr "Brazil"
+
+#, fuzzy
+#~ msgid "Bahamas"
+#~ msgstr "Bahamas"
+
+#, fuzzy
+#~ msgid "Bhutan"
+#~ msgstr "Bhutan"
+
+#, fuzzy
+#~ msgid "Bouvet Island"
+#~ msgstr "Bouvet Island"
+
+#, fuzzy
+#~ msgid "Botswana"
+#~ msgstr "Botswana"
+
+#, fuzzy
+#~ msgid "Belarus"
+#~ msgstr "Belarus"
+
+#, fuzzy
+#~ msgid "Belize"
+#~ msgstr "Belize"
+
+#, fuzzy
+#~ msgid "Canada"
+#~ msgstr "Canada"
+
+#, fuzzy
+#~ msgid "Cocos (keeling) Islands"
+#~ msgstr "Cocos (keeling) Islands"
+
+#, fuzzy
+#~ msgid "Congo, Democratic People's Republic"
+#~ msgstr "Congo, Democratic People's Republic"
+
+#, fuzzy
+#~ msgid "Central African Republic"
+#~ msgstr "Central African Republic"
+
+#, fuzzy
+#~ msgid "Congo, Republic of"
+#~ msgstr "Congo, Republic of"
+
+#, fuzzy
+#~ msgid "Switzerland"
+#~ msgstr "Switzerland"
+
+#, fuzzy
+#~ msgid "Cote d'Ivoire"
+#~ msgstr "Cote d'Ivoire"
+
+#, fuzzy
+#~ msgid "Cook Islands"
+#~ msgstr "Cook Islands"
+
+#, fuzzy
+#~ msgid "Chile"
+#~ msgstr "Chile"
+
+#, fuzzy
+#~ msgid "Cameroon"
+#~ msgstr "Cameroon"
+
+#, fuzzy
+#~ msgid "China"
+#~ msgstr "China"
+
+#, fuzzy
+#~ msgid "Colombia"
+#~ msgstr "Colombia"
+
+#, fuzzy
+#~ msgid "Costa Rica"
+#~ msgstr "Costa Rica"
+
+#, fuzzy
+#~ msgid "Czechoslovakia"
+#~ msgstr "Czechoslovakia"
+
+#, fuzzy
+#~ msgid "Catalonia"
+#~ msgstr "Catalonia"
+
+#, fuzzy
+#~ msgid "Cuba"
+#~ msgstr "Cuba"
+
+#, fuzzy
+#~ msgid "Cap Verde"
+#~ msgstr "Cap Verde"
+
+#, fuzzy
+#~ msgid "Christmas Island"
+#~ msgstr "Christmas Island"
+
+#, fuzzy
+#~ msgid "Cyprus Island"
+#~ msgstr "Cyprus Island"
+
+#, fuzzy
+#~ msgid "Czech Republic"
+#~ msgstr "Czech Republic"
+
+#, fuzzy
+#~ msgid "Germany"
+#~ msgstr "Germany"
+
+#, fuzzy
+#~ msgid "Djibouti"
+#~ msgstr "Djibouti"
+
+#~ msgid "Denmark"
+#~ msgstr "Denmark"
+
+#, fuzzy
+#~ msgid "Dominica"
+#~ msgstr "Dominica"
+
+#, fuzzy
+#~ msgid "Dominican Republic"
+#~ msgstr "Dominican Republic"
+
+#~ msgid "Algeria"
+#~ msgstr "Algeria"
+
+#, fuzzy
+#~ msgid "Ecuador"
+#~ msgstr "Ecuador"
+
+#, fuzzy
+#~ msgid "Estonia"
+#~ msgstr "Estonia"
+
+#, fuzzy
+#~ msgid "Egypt"
+#~ msgstr "Egypt"
+
+#, fuzzy
+#~ msgid "Western Sahara"
+#~ msgstr "Western Sahara"
+
+#, fuzzy
+#~ msgid "England"
+#~ msgstr "England"
+
+#~ msgid "Eritrea"
+#~ msgstr "Eritrea"
+
+#, fuzzy
+#~ msgid "Spain"
+#~ msgstr "Spain"
+
+#, fuzzy
+#~ msgid "Ethiopia"
+#~ msgstr "Ethiopia"
+
+#, fuzzy
+#~ msgid "Finland"
+#~ msgstr "Finland"
+
+#, fuzzy
+#~ msgid "Fiji"
+#~ msgstr "Fiji"
+
+#, fuzzy
+#~ msgid "Falkland Islands (Malvina)"
+#~ msgstr "Falkland Islands (Malvina)"
+
+#, fuzzy
+#~ msgid "Micronesia, Federal State of"
+#~ msgstr "Micronesia, Federal State of"
+
+#, fuzzy
+#~ msgid "Faroe Islands"
+#~ msgstr "Faroe Islands"
+
+#, fuzzy
+#~ msgid "France"
+#~ msgstr "France"
+
+#, fuzzy
+#~ msgid "Gabon"
+#~ msgstr "Gabon"
+
+#, fuzzy
+#~ msgid "United Kingdom (GB)"
+#~ msgstr "United Kingdom (GB)"
+
+#, fuzzy
+#~ msgid "Grenada"
+#~ msgstr "Grenada"
+
+#~ msgid "Haiti"
+#~ msgstr "Haiti"
+
+#~ msgid "Kuwait"
+#~ msgstr "Kuwait"
+
+#~ msgid "Macau"
+#~ msgstr "Macau"
+
+#~ msgid "Malta"
+#~ msgstr "Malta"
+
+#~ msgid "Norway"
+#~ msgstr "Norway"
+
+#~ msgid "Peru"
+#~ msgstr "Peru"
+
+#~ msgid "French Polynesia"
+#~ msgstr "French Polynesia"
+
+#~ msgid "Poland"
+#~ msgstr "Poland"
+
+#~ msgid "Seychelles"
+#~ msgstr "Seychelles"
+
+#~ msgid "Senegal"
+#~ msgstr "Senegal"
+
+#~ msgid "Venezuela"
+#~ msgstr "Venezuela"
+
+#~ msgid " vs "
+#~ msgstr "vs"
+
+#, fuzzy
+#~ msgid "All Seasons"
+#~ msgstr "すべてのチーム"
+
+#, fuzzy
+#~ msgid "All Competitions"
+#~ msgstr "すべてのポジション"
+
+#~ msgid "No matches scheduled."
+#~ msgstr "試合の予定はありません。"
+
+#, fuzzy
+#~ msgid "No matches played."
+#~ msgstr "見つかりませんでした"
+
+#, fuzzy
+#~ msgid "Popular Seasons"
+#~ msgstr "人気のチーム"
+
+#, fuzzy
+#~ msgid "Edit Season"
+#~ msgstr "チームの編集"
+
+#, fuzzy
+#~ msgid "Update Season"
+#~ msgstr "チームを更新"
+
+#, fuzzy
+#~ msgid "New Season Name"
+#~ msgstr "新規チーム名"
+
+#~ msgid "Edit Team"
+#~ msgstr "チームの編集"
+
+#~ msgid "Add New Team"
+#~ msgstr "新規チームを追加"
+
+#~ msgid "New Team Name"
+#~ msgstr "新規チーム名"
+
+#~ msgid "Search Venues"
+#~ msgstr "会場検索"
+
+#~ msgid "All Venues"
+#~ msgstr "すべての会場"
+
+#~ msgid "Parent Venue"
+#~ msgstr "親会場"
+
+#~ msgid "Parent Venue:"
+#~ msgstr "親会場:"
+
+#~ msgid "Edit Venue"
+#~ msgstr "会場の編集"
+
+#~ msgid "Update Venue"
+#~ msgstr "会場を更新"
+
+#~ msgid "Add New Venue"
+#~ msgstr "新規会場を追加"
+
+#~ msgid "New Venue Name"
+#~ msgstr "新規会場名"
+
+#~ msgid "Blog Archives"
+#~ msgstr "ブログアーカイブ"
+
+#~ msgid "Theme without %1$s"
+#~ msgstr "%1$s のないテーマ"
+
+#~ msgid "Please include a %1$s template in your theme."
+#~ msgstr "%1$s テンプレートをテーマに含めてください。"
+
+#~ msgid "Score:"
+#~ msgstr "試合結果:"
+
+#~ msgid "D.O.B"
+#~ msgstr "生年月日"
+
+#~ msgid "Add New Match"
+#~ msgstr "新規試合を追加"
+
+#~ msgid "Edit Match"
+#~ msgstr "試合の編集"
+
+#~ msgid "New Match"
+#~ msgstr "新規試合"
+
+#~ msgid "View Match"
+#~ msgstr "試合を表示"
+
+#~ msgid "Search Matches"
+#~ msgstr "検索キーワード"
+
+#~ msgid "Parent Match:"
+#~ msgstr "親試合:"
+
+#~ msgid "Matches are used for fixtures & results."
+#~ msgstr "試合情報は日程ページと記録ページに使用されます。"
+
+#~ msgid "Add New Player"
+#~ msgstr "新規選手を追加"
+
+#~ msgid "Edit Player"
+#~ msgstr "選手の編集"
+
+#~ msgid "New Player"
+#~ msgstr "新規選手"
+
+#~ msgid "View Player Profile"
+#~ msgstr "選手プロフィールを表示"
+
+#~ msgid "No players found"
+#~ msgstr "選手は見つかりませんでした"
+
+#~ msgid "No players found in Trash"
+#~ msgstr "ゴミ箱内に選手は見つかりませんでした"
+
+#~ msgid "Parent Player:"
+#~ msgstr "親選手:"
+
+#~ msgid "Players are listed on the profile pages."
+#~ msgstr "選手はプロフィールページに表示されます。"
+
+#~ msgid "Add New Staff Member"
+#~ msgstr "新規スタッフを追加"
+
+#~ msgid "Edit Staff Member"
+#~ msgstr "スタッフの編集"
+
+#~ msgid "New Staff Member"
+#~ msgstr "新規スタッフを追加"
+
+#~ msgid "View Staff Member"
+#~ msgstr "スタッフを表示"
+
+#~ msgid "Parent Staff:"
+#~ msgstr "親スタッフ:"
+
+#~ msgid "Staff members are listed on the profile pages."
+#~ msgstr "スタッフはクラブページに表示されます。"
+
+#~ msgid "Add New Sponsor"
+#~ msgstr "新規スポンサーを追加"
+
+#~ msgid "Edit Sponsor"
+#~ msgstr "スポンサーの編集"
+
+#~ msgid "New Sponsor"
+#~ msgstr "新規スポンサーを追加"
+
+#~ msgid "View Sponsor"
+#~ msgstr "スポンサーを表示"
+
+#~ msgid "Search Sponsors"
+#~ msgstr "スポンサーを検索"
+
+#~ msgid "No sponsors found"
+#~ msgstr "スポンサーは見つかりませんでした"
+
+#~ msgid "No sponsors found in Trash"
+#~ msgstr "ゴミ箱内にスポンサーは見つかりませんでした"
+
+#~ msgid "Parent Sponsor:"
+#~ msgstr "親スポンサー:"
+
+#~ msgid "Sponsors are displayed above the footer."
+#~ msgstr "スポンサーはフッターに表示されます。"
+
+#~ msgid "KO/Score"
+#~ msgstr "時刻・結果"
+
+#~ msgid "Group"
+#~ msgstr "グループ"
+
+#~ msgid "D.O.B."
+#~ msgstr "生年月日"
+
+#~ msgid "Crest"
+#~ msgstr "ロゴ"
+
+#~ msgid "Enter player name here"
+#~ msgstr "選手名を入力してください"
+
+#~ msgid "Enter staff name here"
+#~ msgstr "スタッフ名を入力してください"
+
+#~ msgid "Groups"
+#~ msgstr "グループ"
+
+#~ msgid "Search Groups"
+#~ msgstr "グループ検索"
+
+#~ msgid "All Groups"
+#~ msgstr "すべてのグループ"
+
+#~ msgid "Parent Group"
+#~ msgstr "親グループ"
+
+#~ msgid "Parent Group:"
+#~ msgstr "親グループ:"
+
+#~ msgid "Edit Group"
+#~ msgstr "グループの編集"
+
+#~ msgid "Update Group"
+#~ msgstr "グループを更新"
+
+#~ msgid "Add New Group"
+#~ msgstr "新規追加"
+
+#~ msgid "New Group Name"
+#~ msgstr "新規グループ名"
+
+#~ msgid "Team Crest URL"
+#~ msgstr "チームロゴURL"
+
+#~ msgid ""
+#~ "Image for team crest (logo). Best size is 50px by 50px. Use full URL "
+#~ "starting with http://"
+#~ msgstr "ロゴ（マーク）の画像URL。50ピクセルの正方形が最適。"
+
+#~ msgid "League Table Statistics"
+#~ msgstr "順位表"
+
+#~ msgid "Wins"
+#~ msgstr "勝"
+
+#~ msgid "Losses"
+#~ msgstr "引分"
+
+#~ msgid "Goals Against"
+#~ msgstr "失点"
+
+#~ msgid "Goal Difference"
+#~ msgstr "得失点差"
+
+#~ msgid "Display:"
+#~ msgstr "表示設定"
+
+#~ msgid "Display Stats in League Table"
+#~ msgstr "順位表に表示する"
+
+#~ msgid "off"
+#~ msgstr "非表示"
+
+#~ msgid ":"
+#~ msgstr ":"
+
+#~ msgid ""
+#~ "League table statistics. P, GD, and PTS are calculated automatically."
+#~ msgstr "順位表の項目。試合、得失点差および勝点は自動的に計算されます。"
+
+#~ msgid "Show map on venue information page"
+#~ msgstr "会場詳細ページに地図を表示する"
+
+#~ msgid "Crest URL"
+#~ msgstr "チームロゴURL"
+
+#~ msgid "Auto Headline"
+#~ msgstr "自動タイトル"
+
+#~ msgid "Venue:"
+#~ msgstr "会場:"
+
+#~ msgid "Position:"
+#~ msgstr "ポジション:"
+
+#~ msgid "Nationality:"
+#~ msgstr "出身地:"
+
+#~ msgid "Enter full URL starting with http://"
+#~ msgstr "https://から始まるURLを入力してください。"
+
+#~ msgid "Tick this box to link the logo directly to the sponsor's website."
+#~ msgstr "スポンサーのURLに直接飛ばす"
+
+#~ msgid "Details"
+#~ msgstr "詳細"
+
+#~ msgid "Sponsor Website"
+#~ msgstr "スポンサーホームページ"
+
+#~ msgid "League Table"
+#~ msgstr "順位表"
+
+#~ msgid "View Full Table"
+#~ msgstr "完全順位表を見る"
+
+#~ msgid ""
+#~ "This email is to let you know that we've received your message. Our team "
+#~ "will be in touch with you shortly."
+#~ msgstr ""
+#~ "メールを送信しました。受信順に対応しますのでしばらくお待ちください。"
+
+#~ msgid "Midfielder"
+#~ msgstr "MF"
+
+#~ msgid "Defender"
+#~ msgstr "DF"
+
+#~ msgid "Goalkeeper"
+#~ msgstr "GK"
+
+#~ msgid "Football Club Theme Options"
+#~ msgstr "Football Club テーマ設定"
+
+#~ msgid "Width should be 640 pixels or less."
+#~ msgstr "幅640ピクセル以下。"
+
+#~ msgid "Width should be 200 pixels or less."
+#~ msgstr "幅200ピクセル以下。"
+
+#~ msgid "16 x 16 pixels."
+#~ msgstr "16x16ピクセル。"
+
+#~ msgid "Display sponsors in footer"
+#~ msgstr "フッターにスポンサーを表示する"
+
+#~ msgid "Display entry utility (\"Posted in\" line)"
+#~ msgstr "投稿ユーティリティを表示する"
+
+#~ msgid "Region"
+#~ msgstr "地域"
+
+#~ msgid "This region will be used to determine the location of venues."
+#~ msgstr "地図で会場をより正確に検出するため。"
+
+#~ msgid "Featured Category"
+#~ msgstr "特集カテゴリー"
+
+#~ msgid "Rotator Delay Time"
+#~ msgstr "ローテーター待機時間"
+
+#~ msgid "Read More text"
+#~ msgstr "もっと読む"
+
+#~ msgid "Display post dates in rotator"
+#~ msgstr "スライダーに公開日時を表示する"
+
+#~ msgid "Show"
+#~ msgstr "表示する行数: "
+
+#~ msgid "Matches Limit"
+#~ msgstr "試合表示行数"
+
+#~ msgid "rows"
+#~ msgstr "行"
+
+#~ msgid ""
+#~ "Setting for shortened list on Homepage and Matches page. Full list will "
+#~ "always show all matches."
+#~ msgstr ""
+#~ "トップページと試合全般ページの圧縮リストに表示する設定。この設定にかかわら"
+#~ "ず、専用ページにはすべて表示されます。"
+
+#~ msgid "Separate team names with"
+#~ msgstr "チーム間デリミター"
+
+#~ msgid "Score separator text"
+#~ msgstr "スコア間デリミター"
+
+#~ msgid "Separate scores with"
+#~ msgstr "スコア間デリミター"
+
+#~ msgid "Fixtures section title"
+#~ msgstr "試合日程セクションタイトル"
+
+#~ msgid "Section title:"
+#~ msgstr "セクションタイトル"
+
+#~ msgid "Display \"View All\" Link"
+#~ msgstr "「すべて表示」リンクを表示する"
+
+#~ msgid "Display"
+#~ msgstr "表示設定"
+
+#~ msgid "button that links to"
+#~ msgstr "リンクを表示し、次のページに飛ばす: "
+
+#~ msgid "Fixtures Page"
+#~ msgstr "試合日程ページ"
+
+#~ msgid ""
+#~ "This link will update automatically when you save a page with the "
+#~ "Fixtures template."
+#~ msgstr ""
+#~ "試合日程テンプレートを選択したページを保存すると自動的に設定されます。"
+
+#~ msgid "Display \"View All\" link"
+#~ msgstr "「すべて表示」リンクを表示する"
+
+#~ msgid "Results Page"
+#~ msgstr "試合記録ページ"
+
+#~ msgid ""
+#~ "This link will update automatically when you save a page using the "
+#~ "Results template."
+#~ msgstr "記録テンプレートを選択したページを保存すると自動的に設定されます。"
+
+#~ msgid "League Table section title"
+#~ msgstr "順位表セクションタイトル"
+
+#~ msgid "League Table Rows"
+#~ msgstr "順意表行数"
+
+#~ msgid "rows centered around"
+#~ msgstr "行。注目チーム: "
+
+#~ msgid "League Table Main Team"
+#~ msgstr "順位表注目チーム"
+
+#~ msgid ""
+#~ "Setting for shortened table on Homepage and Matches page. Full table will "
+#~ "always show all teams."
+#~ msgstr ""
+#~ "トップページと試合全般ページの圧縮リストに表示する設定。この設定にかかわら"
+#~ "ず、専用ページにはすべて表示されます。"
+
+#~ msgid "link that links to"
+#~ msgstr "リンクを表示し、次のページに飛ばす: "
+
+#~ msgid "League Table Page"
+#~ msgstr "順意表ページ"
+
+#~ msgid "Team label"
+#~ msgstr "チームラベル"
+
+#~ msgid "Played label"
+#~ msgstr "試合数ラベル"
+
+#~ msgid "Played:"
+#~ msgstr "試合数:"
+
+#~ msgid "Wins label"
+#~ msgstr "勝ラベル"
+
+#~ msgid "Wins:"
+#~ msgstr "勝:"
+
+#~ msgid "Draws label"
+#~ msgstr "引分ラベル"
+
+#~ msgid "Draws:"
+#~ msgstr "引分:"
+
+#~ msgid "Losses label"
+#~ msgstr "敗ラベル"
+
+#~ msgid "Losses:"
+#~ msgstr "敗:"
+
+#~ msgid "Goals For label"
+#~ msgstr "得点ラベル"
+
+#~ msgid "Goals For:"
+#~ msgstr "得点:"
+
+#~ msgid "Goals Against label"
+#~ msgstr "失点ラベル"
+
+#~ msgid "Goals Against:"
+#~ msgstr "失点:"
+
+#~ msgid "Goal Difference label"
+#~ msgstr "得失点差ラベル"
+
+#~ msgid "Goal Difference:"
+#~ msgstr "得失点差:"
+
+#~ msgid "Points label"
+#~ msgstr "勝点ラベル"
+
+#~ msgid "Points:"
+#~ msgstr "勝点:"
+
+#~ msgid "Players section title"
+#~ msgstr "選手一覧セクションタイトル"
+
+#~ msgid "Default display type is"
+#~ msgstr "選手一覧表デフォルト表示タイプ: "
+
+#~ msgid "Players default display type"
+#~ msgstr "選手一覧表デフォルト表示タイプ"
+
+#~ msgid "Show flag next to player name in list"
+#~ msgstr "選手一覧表に国旗を表示する(リストタイプ)"
+
+#~ msgid "Show player position in list"
+#~ msgstr "選手一覧表にポジションを表示する(リストタイプ)"
+
+#~ msgid "Show age in list"
+#~ msgstr "選手一覧表に年齢を表示する(リストタイプ)"
+
+#~ msgid "Staff section title"
+#~ msgstr "スタッフセクションタイトル"
+
+#~ msgid "Player Profiles"
+#~ msgstr "選手プロフィール"
+
+#~ msgid "Show squad number"
+#~ msgstr "背番号を表示する"
+
+#~ msgid "Show player position"
+#~ msgstr "ポジションを表示する"
+
+#~ msgid "Show date of birth"
+#~ msgstr "生年月日を表示する"
+
+#~ msgid "Show age"
+#~ msgstr "年齢を表示する"
+
+#~ msgid "Show nationality"
+#~ msgstr "出身地を表示する"
+
+#~ msgid "Show player profile"
+#~ msgstr "プロフィール詳細を表示する"
+
+#~ msgid "Display Back Link"
+#~ msgstr "「戻る」リンクを表示する"
+
+#~ msgid ""
+#~ "This link will update automatically when you save a page with the Players "
+#~ "& Staff template."
+#~ msgstr ""
+#~ "クラブテンプレートを選択したページを保存すると自動的に設定されます。"
+
+#~ msgid "Send contact form messages to this address."
+#~ msgstr "お問い合わせフォームの内容を受信するアドレス。"
+
+#~ msgid "Text to display when email sends successfully."
+#~ msgstr "お問い合わせを送信した時に表示するテキスト。"
+
+#~ msgid "Error Text"
+#~ msgstr "エラーページ内容"
+
+#~ msgid "Text to display when error occurs."
+#~ msgstr "お問い合わせにエラーがあった場合に表示するテキスト。"
+
+#~ msgid "Email subject to sender."
+#~ msgstr "送信した側に送るメールの件名。"
+
+#~ msgid "Email Content"
+#~ msgstr "Eメール本文。"
+
+#~ msgid "Email message to sender."
+#~ msgstr "送信した側に送るメールの本文。"
+
+#~ msgid "No Results available."
+#~ msgstr "試合結果はありません。"
+
+#~ msgid "Previous Results"
+#~ msgstr "過去の試合"
+
+#~ msgid "Recent Results"
+#~ msgstr "もっと最近の試合"
+
+#~ msgid "The first footer widget column"
+#~ msgstr "フッターウィジェットの1列目"
+
+#~ msgid "Second Footer Widget Area"
+#~ msgstr "フッターウィジェット2"
+
+#~ msgid "The second footer widget column"
+#~ msgstr "フッターウィジェットの2列目"
+
+#~ msgid "Third Footer Widget Area"
+#~ msgstr "フッターウィジェット3"
+
+#~ msgid "The third footer widget column"
+#~ msgstr "フッターウィジェットの3列目"
+
+#~ msgid "Fourth Footer Widget Area"
+#~ msgstr "フッターウィジェット4"
+
+#~ msgid "The fourth footer widget column"
+#~ msgstr "フッターウィジェットの4列目"
+
+#~ msgid "Fixtures title:"
+#~ msgstr "試合日程タイトル:"
+
+#~ msgid "Results title:"
+#~ msgstr "試合記録タイトル"
+
+#~ msgid "V"
+#~ msgstr "VS"
+
+#~ msgid "Display \"View All\" button that links to"
+#~ msgstr "「すべて表示」リンクを表示し、次のページに飛ばす: "
+
+#~ msgid "Display \"View Full Table\" link that links to"
+#~ msgstr "「完全順位表を見る」リンクを表示し、次のページに飛ばす: "
+
+#~ msgid "Display Language & Translations"
+#~ msgstr "表示言語と翻訳の設定"
+
+#~ msgid "Your display language settings have been saved."
+#~ msgstr "表示言語の設定が保存されました。"
+
+#~ msgid "Parent Position"
+#~ msgstr "親ポジション"
+
+#~ msgid "Parent Position:"
+#~ msgstr "親ポジション:"
+
+#~ msgid "Back to Players & Staff"
+#~ msgstr "戻る"
