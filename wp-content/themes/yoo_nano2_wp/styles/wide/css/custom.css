@@ -487,6 +487,7 @@ font-size: 40px;
 	position: relative;
 }
 
+/* Triangle */
 #top-a .module:before {
 	width: 0; 
 	height: 0; 
@@ -497,7 +498,7 @@ font-size: 40px;
 	position: absolute;
 	bottom: -40px;
 	right: 50%;
-	z-index: 100;
+	margin-right: -5px;
 }
 
 

@@ -160,7 +160,7 @@ if ( !class_exists( 'WP_Widget_Ultimate_Posts' ) ) {
 						?>
 
 						<div class="usar-image">
-							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+							<a class="ajax"  href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 								<img src="<?php echo WP_PLUGIN_URL . '/ultimate-posts-widget/thumb.php?src='. get_image_path($thumbnail[0]) .'&amp;h='.$thumb_h.'&amp;w='.$thumb_w.'&amp;zc='.$thumb_crop; ?>" alt="<?php the_title_attribute(); ?>" />
 							</a>
 						</div>
@@ -171,7 +171,7 @@ if ( !class_exists( 'WP_Widget_Ultimate_Posts' ) ) {
 
 							<?php if ( get_the_title() && $instance['show_title'] ) : ?>
 								<div class="post-title">
-									<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>">
+									<a class="ajax" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>">
 										<?php the_title(); ?>
 									</a>
 								</div>
