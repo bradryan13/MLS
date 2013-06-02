@@ -16,7 +16,7 @@ h1, h2, h5 {
 }
 
 #logo {
-	width: 310px;
+	width: 240px;
 	height: 40px;
 }
 
@@ -25,10 +25,10 @@ h1, h2, h5 {
 	background-image: url(../../../../../images/assets/MLS_logo_horz@2x.png);
 	background-size: cover;
 	position: absolute;
-	width: 230px;
-	height: 34px;
+	width: 220px;
+	height: 40px;
 	z-index: 100;
-	top: 12px;
+	top: 5px;
 }
 
 
@@ -71,17 +71,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 
 
 #block-header {
-  height: 60px;
-  background: #00375C;
+  height: 50px;
+  background: #002944;
+  background: -moz-linear-gradient(top,#002944 0%,#002236 100%);
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#002944),color-stop(100%,#002236));
+  background: -webkit-linear-gradient(top,#002944 0%,#002236 100%);
+  background: -o-linear-gradient(top,#002944 0%,#002236 100%);
+  background: -ms-linear-gradient(top,#002944 0%,#002236 100%);
+  background: linear-gradient(to bottom,#002944 0%,#002236 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002944',endColorstr='#002236',GradientType=0 );
 }
 
 
 #block-slider {
-	background: #222;
+	background: #FFF;
 }
 
 #block-main {
-	background: #FFF;
+	background: #F7F7F7;
+	border-top: 6px solid #FFF;
+}
+
+#block-hero {
+	background: url(../../../../../images/assets/hero_bg.jpg) center top no-repeat;
 }
 
 
@@ -89,7 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 ----------------------------------------------------------------------------------------------------*/
 
 #menu {
-	float: left;
+	float: right;
 }
 
 
@@ -116,20 +128,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 
 .menu-dropdown a.level1 > span,
 .menu-dropdown span.level1 > span {
-	height: 60px;
+	height: 50px;
 	padding: 0 20px;
-	font-size: 14px;
+	font-size: 13px;
 	color: #FFF;
-	line-height: 60px;
-	border-right: 1px solid #274061;
-	border-left: 1px solid #0C2F5C;
+	line-height: 50px;
+	border-right: 1px solid #002236;
+	border-left: 1px solid #002E49;
 	-webkit-transition: all 0.2s ease-out;
 	-moz-transition: all 0.2s ease-out;
 	-ms-transition: all 0.2s ease-out;
 	-o-transition: all 0.2s ease-out;
 }
 
-.menu-dropdown span.level1 > a span:hover, .menu-dropdown span.level1 > span:hover {
+.menu-dropdown span.level1 a span:hover {
 	background: #F7F7F7;
 	color: #00375C;
 	-webkit-transition: all 0.2s ease-out;
@@ -276,8 +288,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 ----------------------------------------------------------------------------------------------------*/
 
 #top-a .module {
-    margin: 0px;
-    height: 551px;
+    margin: 20px 0;
 }
 
 
@@ -363,6 +374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', end
 	margin-top: 9px;
 	color: #9C9C9C;
 }
+
 
 
 
@@ -468,5 +480,84 @@ font-size: 40px;
 
 
 
+/* 6. Features
+----------------------------------------------------------------------------------------------------*/
+
+#top-a {
+	position: relative;
+}
+
+#top-a .module:before {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #010b1e;
+	content: '';
+	position: absolute;
+	bottom: -40px;
+	right: 50%;
+	z-index: 100;
+}
 
 
+
+.features img {
+	-webkit-box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.40);
+	-moz-box-shadow:    0px 3px 12px rgba(0, 0, 0, 0.40);
+	box-shadow:         0px 3px 12px rgba(0, 0, 0, 0.40);
+}
+
+
+
+.features h1 a {
+	color: #FFF;
+	font-size: 48px;
+	line-height: 48px;
+	margin-left: 10px;
+	padding-right: 55px;
+	background: url(../../../../../images/assets/plus_symbol@2x.png) right bottom no-repeat; 
+	background-size: 40px 40px;
+}
+
+.features .feature-2 h1 a, .features .feature-3 h1 a {
+background-size: 22px 22px;
+padding-right: 30px;
+}
+
+.features .caption {
+	position: absolute;
+	bottom: 0;
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC43Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.6))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.6) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#b3000000',GradientType=0 ); /* IE6-8 */
+	width: 100%;
+}
+
+.features .feature-2 h1 a, .features .feature-3 h1 a {
+	font-size: 26px;
+	line-height: 26px;
+}
+
+.feature-1 {
+	float: left;
+	position: relative;
+	max-height: 420px;
+	position: relative;
+}
+
+.feature-2, .feature-3 {
+	float: right;
+	position: relative;
+	max-height: 200px;
+	position: relative;
+}
+.feature-2 {
+	margin-bottom: 20px;
+}

@@ -87,7 +87,7 @@ include($this['path']->path('layouts:template.config.php'));
 	</div></div>
 	
 	
-	<div id="block-slider">
+	<div id="block-hero">
 		<div class="wrapper">
 	<?php if ($this['modules']->count('top-a')) : ?>
 		<section id="top-a" class="grid-block"><?php echo $this['modules']->render('top-a', array('layout'=>$this['config']->get('top-a'))); ?></section>
