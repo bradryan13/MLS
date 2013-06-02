@@ -160,7 +160,7 @@ if ( !class_exists( 'WP_Widget_Ultimate_Posts' ) ) {
 						?>
 
 						<div class="usar-image">
-							<a class="ajax"  href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+							<a <?php if ( $instance['ajax_loading'] ) : ?>class="ajax"<?php endif; ?>href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 								<img src="<?php echo WP_PLUGIN_URL . '/ultimate-posts-widget/thumb.php?src='. get_image_path($thumbnail[0]) .'&amp;h='.$thumb_h.'&amp;w='.$thumb_w.'&amp;zc='.$thumb_crop; ?>" alt="<?php the_title_attribute(); ?>" />
 							</a>
 						</div>
@@ -169,9 +169,10 @@ if ( !class_exists( 'WP_Widget_Ultimate_Posts' ) ) {
 
 						<div class="usar-content">
 
+
 							<?php if ( get_the_title() && $instance['show_title'] ) : ?>
 								<div class="post-title">
-									<a class="ajax" href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>">
+									<a <?php if ( $instance['ajax_loading'] ) : ?>class="ajax"<?php endif; ?>href="<?php the_permalink(); ?>" title="<?php echo esc_attr( get_the_title() ? get_the_title() : get_the_ID() ); ?>">
 										<?php the_title(); ?>
 									</a>
 								</div>
@@ -195,6 +196,9 @@ if ( !class_exists( 'WP_Widget_Ultimate_Posts' ) ) {
 								if ( $instance['show_readmore'] ) : $linkmore = ' <a href="'.get_permalink().'" class="more-link">'.$excerpt_readmore.'</a>'; else: $linkmore =''; endif; ?>
 								<p class="post-excerpt"><?php echo get_the_excerpt() . $linkmore; ?></p>
 							<?php endif; ?>
+							
+							
+							
 
 							<?php if ( $instance['show_cats'] ) : ?>
 								<div class="post-cats">
@@ -255,6 +259,7 @@ echo $category[0]->cat_name;
 			$instance['types'] = $types;
 			$instance['cats'] = $cats;
 			$instance['atcat'] = $new_instance['atcat'];
+			$instance['ajax_loading'] = $new_instance['ajax_loading'];
 			$instance['show_excerpt'] = $new_instance['show_excerpt'];
 			$instance['show_thumbnail'] = $new_instance['show_thumbnail'];
 			$instance['show_date'] = $new_instance['show_date'];
@@ -333,6 +338,7 @@ echo $category[0]->cat_name;
 				$instance['show_title'] = false;
 				$instance['show_date'] = false;
 				$instance['show_time'] = false;
+				$instance['ajax_loading'] = false;
 				$instance['show_excerpt'] = false;
 				$instance['show_readmore'] = false;
 				$instance['show_thumbnail'] = false;
@@ -363,7 +369,8 @@ echo $category[0]->cat_name;
 			if($c > 10) { $c = 10; }
 
 			?>
-
+			
+			
 			<p><label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title', 'usar' ); ?>:</label>
 			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo $title; ?>" /></p>
 
@@ -372,7 +379,12 @@ echo $category[0]->cat_name;
 
 			<p><label for="<?php echo $this->get_field_id( 'number' ); ?>"><?php _e( 'Number of posts', 'usar' ); ?>:</label>
 			<input id="<?php echo $this->get_field_id( 'number' ); ?>" name="<?php echo $this->get_field_name( 'number' ); ?>" type="text" value="<?php echo $number; ?>" size="2" /></p>
-
+			
+				<p>
+				<input class="checkbox" id="<?php echo $this->get_field_id( 'ajax_loading' ); ?>" name="<?php echo $this->get_field_name( 'ajax_loading' ); ?>" type="checkbox" <?php checked( (bool) $instance["ajax_loading"], true ); ?> />
+				<label for="<?php echo $this->get_field_id( 'ajax_loading' ); ?>"><?php _e( 'Ajax Loading', 'usar' ); ?></label>
+			</p>
+			
 			<p>
 				<input class="checkbox" id="<?php echo $this->get_field_id( 'show_title' ); ?>" name="<?php echo $this->get_field_name( 'show_title' ); ?>" type="checkbox" <?php checked( (bool) $instance["show_title"], true ); ?> />
 				<label for="<?php echo $this->get_field_id( 'show_title' ); ?>"><?php _e( 'Show title', 'usar' ); ?></label>
@@ -392,6 +404,7 @@ echo $category[0]->cat_name;
 				<input class="checkbox" id="<?php echo $this->get_field_id( 'show_excerpt' ); ?>" name="<?php echo $this->get_field_name( 'show_excerpt' ); ?>" type="checkbox" <?php checked( (bool) $instance["show_excerpt"], true ); ?> />
 				<label for="<?php echo $this->get_field_id( 'show_excerpt' ); ?>"><?php _e( 'Show excerpt', 'usar' ); ?></label>
 			</p>
+			
 
 			<p>
 				<label for="<?php echo $this->get_field_id('excerpt_length'); ?>"><?php _e( 'Excerpt length (in words)', 'usar' ); ?>:</label>
@@ -409,7 +422,8 @@ echo $category[0]->cat_name;
 				<label for="<?php echo $this->get_field_id('excerpt_readmore'); ?>"><?php _e( 'Read more text', 'usar' ); ?>:</label>
 				<input class="widefat" type="text" id="<?php echo $this->get_field_id('excerpt_readmore'); ?>" name="<?php echo $this->get_field_name('excerpt_readmore'); ?>" value="<?php echo $excerpt_readmore; ?>" />
 			</p>
-
+			
+			
 			<?php if ( function_exists('the_post_thumbnail') && current_theme_supports( 'post-thumbnails' ) ) : ?>
 
 				<p>
